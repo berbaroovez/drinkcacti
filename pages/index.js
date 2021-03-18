@@ -12,8 +12,8 @@ export default function Home() {
       <ContentContainer>
         <CTA />
         <ContactForm />
-        <img src="./assets/cacti-info.png" />
-        <img src="./assets/cacti-cans.png" />
+        <img className="info-images" src="./assets/cacti-info.png" />
+        <img className="info-images" src="./assets/cacti-cans.png" />
       </ContentContainer>
 
       <Footer />
@@ -45,7 +45,7 @@ const ContentContainer = styled.div`
 
   padding: 20px 10px;
 
-  img {
+  .info-images {
     width: 100%;
     margin-bottom: 24px;
   }

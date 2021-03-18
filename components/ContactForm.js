@@ -27,7 +27,7 @@ export default function ContactForm() {
           <option value="12">DECEMBER</option>
         </select>
         <input type="number" placeholder="DAY" />
-        <input type="number" placeholder="YEAR" />
+        <input type="number" className="year" placeholder="YEAR" />
       </BirthdayWrapper>
       <input type="number" placeholder="ZIP CODE" />
       <input type="email" placeholder="EMAIL" />
@@ -109,5 +109,9 @@ const BirthdayWrapper = styled.div`
   }
   input {
     width: 28%;
+  }
+
+  .year {
+    margin-right: -0.1%;
   }
 `;
