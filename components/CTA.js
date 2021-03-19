@@ -25,6 +25,12 @@ const CTAWrapper = styled.div`
   left: 0;
   background: ${COLORS.pink};
   padding: 2px 0;
+
+  @media only screen and (min-device-width: 768px) {
+    /* For general iPad layouts */
+    position: relative;
+    top: 0;
+  }
 `;
 
 const CTA__BottomRow = styled.div`
