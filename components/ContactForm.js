@@ -106,6 +106,7 @@ const BirthdayWrapper = styled.div`
     border: none;
     padding: 6px 8px;
     border-radius: ${2 / 16 + "rem"};
+    appearance: none;
   }
   input {
     width: 28%;
